@@ -17,7 +17,7 @@ main{
 .cabecera{
     width: 100%;
     height: 4.5em;
-    background: rgb(234, 152, 46);
+    background: rgb(3, 11, 62);
     padding: 0.5em 1em;
     
 }
@@ -29,7 +29,7 @@ main{
     justify-content: flex-start;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: rgb(253, 251, 251);
     font-size: 2em;
     font-weight: 600;
 }
@@ -41,7 +41,7 @@ main{
 .navegacion{
     width: 100%;
     height: 4em;
-    background: gray;
+    background: rgb(5, 0, 22);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -72,12 +72,16 @@ main{
 .banner h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 6em;
-    text-shadow:black;
+    color:rgb(10, 10, 10);
+    text-shadow:2px -2px 1px #faf8f8;
 }
 .banner h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
-    text-shadow:rgb(250, 238, 13);
+    text-align:center;
+    color: #080808;
+    background: #fbf9f9;
+    letter-spacing: 0;
 }
 /* .banner a{
     margin: 3em;
@@ -97,7 +101,7 @@ main{
 .section_2{
     width: 80%;
     height: 100vh;
-    background: chocolate;
+    background: rgb(255, 2255, 255);
     display: flex;
     flex-direction: row;
 }
@@ -165,6 +169,20 @@ main{
 .derecTexto h4{
     font-size: 32px;
 }
+.servicios{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.servicios a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    padding: 0.2em;
+}
+   
 /* <!-- seccion 3 --> */
 .cajappal{
     width: 80%;
@@ -268,7 +286,7 @@ iframe{
 }
 
 footer{
-    width: 80%;
+    width: 100%;
     height: 2em;
     background: rgb(85, 16, 16);
     display: flex;
@@ -402,10 +420,7 @@ footer a{
     display: flex;
     flex-direction: column;
 }
-/* .dertitulo h2{
-    font-size: 0rem;
-    background: burlywood;
-} */
+
 .derecTexto{
     margin-left: 0.5em;
     margin-top: 0;
@@ -417,7 +432,13 @@ footer a{
 .derecTexto h4{
     font-size: 1rem;
 }
-
+.servicios a{
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    padding: 0.2em;
+}
 
     /* <!-- seccion3  --> */
 .cajappal{
