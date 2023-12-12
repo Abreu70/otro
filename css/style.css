@@ -341,12 +341,12 @@ footer a{
     }
     .banner h1{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 3em;
+        font-size: 2em;
         text-shadow:black;
     }
     .banner h2{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 1.2em;
+        font-size: 1em;
         text-shadow:rgb(250, 238, 13);
     }
 /* <!-- seccion 2 --> */
