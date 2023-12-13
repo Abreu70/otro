@@ -293,7 +293,7 @@ footer a{
     .cabecera{
         width: 100%;
         height: 2.5em;
-        background: rgb(234, 152, 46);
+        background: rgb(3, 11, 62);
         padding: 0.5em 1em;
     }
     .cabeceraLink{
@@ -304,7 +304,7 @@ footer a{
         justify-content: flex-start;
         align-items: center;
         text-decoration: none;
-        color: rgb(14, 1, 1);
+        color: rgb(253, 251, 251);
         font-size: 1.5em;
         font-weight: 600;
     }
@@ -316,7 +316,7 @@ footer a{
     .navegacion{
         width: 100%;
         height: 2em;
-        background: gray;
+        background: rgb(5, 0, 22);
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -358,7 +358,7 @@ footer a{
 .section_2{
     width: 100%;
     height: 100vh;
-    background: rgb(234, 198, 180);
+    background: rgb(255, 2255, 255);
     display: flex;
     flex-direction: column;
 }
