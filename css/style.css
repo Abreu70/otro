@@ -379,7 +379,7 @@ footer a{
 .izqImg img{
     object-fit: cover;
     width: 100%;
-    border-radius: 2%;
+    /* border-radius: 2%; */
 }
 .bloqueDer{
     width: 100%;
@@ -408,7 +408,7 @@ footer a{
     flex-direction: column;
 }
 
-.derecTexto{
+.derecTexto h2{
     margin-left: 0.5em;
     margin-top: 0;
 }
@@ -420,11 +420,11 @@ footer a{
     font-size: 1rem;
 }
 .servicios a{
-    margin-top: 0;
+    margin-top: 0.1em;
     text-decoration: none;
     font-size: 1em;
     color: black;
-    padding: 0.2em;
+    padding: auto;
 }
 
     /* <!-- seccion3  --> */
