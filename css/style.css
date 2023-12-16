@@ -306,7 +306,7 @@ footer a{
         text-decoration: none;
         color: rgb(253, 251, 251);
         font-size: 1.5em;
-        font-weight: 600;
+        /* font-weight: 600; */
     }
     .cabeceraImg{
         width: 5%;
@@ -348,6 +348,7 @@ footer a{
         font-family: 'Times New Roman', Times, serif;
         font-size: 2em;
         text-shadow:black;
+        margin-top: 25rem;
     }
     .banner h2{
         font-family: 'Times New Roman', Times, serif;
@@ -531,17 +532,18 @@ aside{
 
 footer{
     width: 100%;
-    height: 0;
+    height: 9em;
     background: rgb(85, 16, 16);
+    color: antiquewhite;
+}
+ .footercopy{
+    margin-top: auto;
+    color:antiquewhite;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: antiquewhite;
-}
-footer a{
-    color:bisque;
-    text-decoration: none;
 }
 
 }
