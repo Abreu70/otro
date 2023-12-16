@@ -471,10 +471,11 @@ aside{
     border: 0;
 }
 .textartmap{
-    width: 100%;
-    height: 65%;
+    max-width:100%;
+    max-height: 65%;
     background-color: rgb(1, 8, 6);
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
     justify-content: start ;
@@ -497,12 +498,13 @@ aside{
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    flex-wrap: nowrap;
     /* margin-top: 0.5em;
     margin-left: 2em;
     padding:0.5em 2em; */
 }
 .input{
-    width: 100%;
+    width: 300px;
     height: 2.5em;
     margin: 2px 0;
     outline: none;
@@ -510,7 +512,7 @@ aside{
     margin-top: 1em;
 }
 .textarea{
-    width: 100%;
+    width: 300px;
     height: 4.5em;
     margin: 2px 0;
     outline: none;
@@ -519,6 +521,15 @@ aside{
     margin-top: 1em;
     margin-bottom: -0.5em;
 }
+
+/* .input, .textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+
 .submit{
     width: 45%;
     height: 2.18rem;
