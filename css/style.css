@@ -55,8 +55,9 @@ main{
 }
 .navegacion a:hover{
     color:rgb(223, 217, 43);
-    transition: 0.5s; */
-}
+    transition: 0.5s; 
+}*/
+
 /* <!-- seccion 2 --> */
 .banner{
     width: 80%;
@@ -332,6 +333,7 @@ footer a{
         color:rgb(223, 217, 43);
         transition: 0.5s;
     } */
+
     /* <!-- seccion 2 --> */
     .banner{
         width: 100%;
@@ -355,6 +357,7 @@ footer a{
         font-size: 1em;
         text-shadow:rgb(250, 238, 13);
     }
+    
 /* <!-- seccion 2 --> */
 .section_2{
     width: 100%;
