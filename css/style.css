@@ -38,7 +38,7 @@ main{
     margin-right:10px;
 }
 /* <!-- seccion 1 banner --> */
-.navegacion{
+/* .navegacion{
     width: 100%;
     height: 4em;
     background: rgb(5, 0, 22);
@@ -55,7 +55,7 @@ main{
 }
 .navegacion a:hover{
     color:rgb(223, 217, 43);
-    transition: 0.5s;
+    transition: 0.5s; */
 }
 /* <!-- seccion 2 --> */
 .banner{
@@ -313,7 +313,7 @@ footer a{
         margin-right:10px;
     }
     /* <!-- seccion 1 banner --> */
-    .navegacion{
+    /* .navegacion{
         width: 100%;
         height: 2em;
         background: rgb(5, 0, 22);
@@ -331,7 +331,7 @@ footer a{
     .navegacion a:hover{
         color:rgb(223, 217, 43);
         transition: 0.5s;
-    }
+    } */
     /* <!-- seccion 2 --> */
     .banner{
         width: 100%;
