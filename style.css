@@ -43,7 +43,7 @@ main{
 .banner{
     width: 80%;
     height: calc(100vh - 4.5em);
-    background-image: url(../img/imgppal.jpg);
+    background-image: url(/img/Cleaning-Equipment.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -308,7 +308,7 @@ footer a{
 .banner{
     width: 80%;
     height: calc(100vh - 2.5em);
-    background-image: url(../img/imgppal.jpg);
+    background-image: url(../img/Cleaning-Equipment.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
