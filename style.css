@@ -308,7 +308,7 @@ footer a{
 .banner{
     width: 90%;
     height: calc(100vh - 2.5em);
-    background-image: url(/img/imgppal.jpg);
+    background-image: url(../img/imgppal.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -327,6 +327,7 @@ footer a{
     font-size: 1.5em;
     text-shadow:rgb(250, 238, 13);
 }
+
 /* <!-- seccion 2 --> */
 .section_2{
     width: 90%;
@@ -334,6 +335,12 @@ footer a{
     background: rgb(255, 2255, 255);
     display: flex;
     flex-direction: column;
+    border-width: 1.2px;
+    border-style: solid;
+    border-color: #080808;
+    /* border-radius: 2%; */
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 .bloqueIzq{
     width: 50%;
@@ -394,7 +401,7 @@ footer a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgb(203, 246, 246);
+    background:  rgb(238, 238, 234);
 }
 .redes h3{
     font-size: 1.25em;
