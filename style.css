@@ -296,7 +296,7 @@ footer a{
     justify-content: flex-start;
     align-items: center;
     text-decoration: none;
-    color: rgb(253, 251, 251);
+    /* color: rgb(253, 251, 251); */
     font-size: 1.5em;
     /* font-weight: 600; */
 }
