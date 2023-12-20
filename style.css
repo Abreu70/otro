@@ -298,7 +298,7 @@ footer a{
     text-decoration: none;
     /* color: rgb(253, 251, 251); */
     font-size: 1.5em;
-    /* font-weight: 600; */
+  
 }
 .cabeceraImg{
     width: 5%;
@@ -317,7 +317,7 @@ footer a{
     /* color: rgb(20, 11, 1); */
 }
 .banner h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Parisienne', cursive;
     font-size: 2.5em;
     text-shadow:black;
     margin-top: 25rem;
@@ -357,8 +357,8 @@ footer a{
     background: rgb(255, 2255, 255);
 }
 .dertitulo h2{
-    font-size: 1.87rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    font-family: 'Allura', cursive;
 }
 .derecTexto{
     margin-left: 0.5em;
