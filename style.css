@@ -357,8 +357,9 @@ footer a{
     background: rgb(255, 2255, 255);
 }
 .dertitulo h2{
-    font-size: 4rem;
-    font-family: 'Allura', cursive;
+    font-size: 2.5rem;
+    /* font-family: 'Allura', cursive; */
+    font-family: 'Playball', cursive;
 }
 .derecTexto{
     margin-left: 0.5em;
@@ -404,7 +405,8 @@ footer a{
     background:  rgb(238, 238, 234);
 }
 .redes h3{
-    font-size: 1.25em;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.5em;
 }
 .logos{
     font-size: 1em;
