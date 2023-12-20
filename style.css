@@ -256,20 +256,62 @@ aside{
 }
 
 footer{
-    width: 100%;
+    width: 90%;
     height: 20%;
     background: rgb(116, 37, 6);
-      margin-top: auto;
-      color:antiquewhite;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-footer a{
-    color:bisque;
-    text-decoration: none;
+
+.containerFooter{
+    width: 100%;
+    height: 100%;
+    background: rgb(34, 11, 3);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 2em;
+    color: antiquewhite;
+}
+
+.tableWorking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textwidget{
+   
+}
+tbody{
+    font-size: 1em;
+    color: rgb(243, 248, 248);
+}
+td{
+    padding-left: 2em;
+}
+
+
+.paimentCard{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paimentCard h2{
+    /* font-family: 'Nothing You Could Do', cursive; */
+    font-size: 1.5em;
+}
+.logos{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+    padding: 0.5em 1em;
 }
 
 /* Media query para cell */
@@ -304,12 +346,15 @@ footer a{
     width: 5%;
     margin-right:10px;
 }
-
+.onda{
+    width: 100%;
+    height: 5%;
+}
 .banner{
     width: 90%;
     height: calc(100vh - 2.5em);
     background-image: url(../img/imgppal.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -483,17 +528,80 @@ aside{
 footer{
     width: 90%;
     height: 20%;
-    background: rgb(116, 37, 6);
-      margin-top: auto;
-      color:antiquewhite;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      font-size: 0.8em;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-footer a{
-    color:bisque;
-    text-decoration: none;
+
+.containerFooter{
+    width: 100%;
+    height: 100%;
+    background:  rgb(238, 238, 234);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding: 2em;
+    color: rgb(12, 12, 12);
+}
+
+.tableWorking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tableWorking h2{
+    font-size: 1em;
+    padding: 1em;
+}
+
+/* .textwidget{
+   
+} */
+tbody{
+    font-size: 0.8em;
+    color: rgb(12, 12, 12);
+   
+}
+td{
+    padding-left: 5em;
+}
+/* Payment Cards */
+.paimentCard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1em; */
+    /* background: #faf8f8; */
+}
+.paimentCard h2{
+    /* font-family: 'Nothing You Could Do', cursive; */
+    font-size: 1em;
+    padding: 1em;
+}
+.logoCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logos{
+    padding: 0.5em 1em;
+}
+.footercopy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #faf8f8;
+    font-size: 0.8em;
+}
+.footercopy a{
+    color: #faf8f8;
 }
 }
