@@ -365,7 +365,7 @@ td{
     height: 4.5em;
     background: rgb(3, 11, 62);
     padding: 0.5em 1em;
-    
+    font-size: 0.5em;
 }
 .cabeceraLink{
     width: 100%;
@@ -416,11 +416,10 @@ td{
     padding: auto;
 }
 /* --------- */
-/* 
 
 .banner{
-    width: 90%;
-    height: calc(100% - 2.5em);
+    width: 100%;
+    height: calc(100% - 3.5em);
     background-image: url(/img/imgppal.jpg);
     background-size: cover;
     display: flex;
@@ -430,7 +429,7 @@ td{
 }
 .banner h1{
     font-family: 'Parisienne', cursive;
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-shadow:black;
     margin-top: 25rem;
     
@@ -446,8 +445,8 @@ td{
 .banner h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
-    text-shadow:rgb(250, 238, 13); */
-
+    text-shadow:rgb(250, 238, 13);
+}
 
 
 /* -------- */
