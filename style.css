@@ -8,7 +8,7 @@
 /* <!-- seccion 1 banner --> */
 main{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgb(238, 238, 234);
     display: flex;
     flex-direction: column;
@@ -16,53 +16,83 @@ main{
     align-items: center;
 }
 
-.cabecera{
+.titulo{
     width: 90%;
     height: 100%;
     height: 4.5em;
     background: rgb(3, 11, 62);
     padding: 0.5em 1em;
-    
 }
 .cabeceraLink{
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     color: rgb(253, 251, 251);
     font-size: 2.5em;
 }
 .cabeceraImg{
-    width: 5%;
-    margin-right:10px;
+    width: 10px;
+    margin-right:100px;
 }
 
+
+.contactoInfo{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    background: chartreuse;
+}
+.grupoInfo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+    /* justify-content:space-around; */
+}
+.textoInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    /* background: chartreuse; */
+    padding: 1em;
+}
 .banner{
     width: 90%;
-    height: calc(100vh - 4.5em);
+    height: calc(100% - 2.5em);
     background-image: url(/img/imgppal.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    color: rgb(20, 11, 1);
 }
 .banner h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3em;
-    color:rgb(10, 10, 10);
-    text-shadow:2px -2px 1px #faf8f8;
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
+    text-shadow:black;
+    margin-top: 25rem;
+    
+    box-shadow: 0.25rem 0.4rem 0.31rem rgb(0, 0, 0, 0.5);
+	border-left: 0.06rem solid rgb(255, 255, 255, 0.5);
+	border-top: 0.06rem solid rgb(255, 255, 255, 0.5);
+	border-radius: 0.6vw;
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.4); 
+    padding: 0.5em;
+    color: azure;
 }
 .banner h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
-    text-align:center;
-    color: #080808;
-    /* background: #fbf9f9; */
-    letter-spacing: 0;
+    font-size: 1.5em;
+    text-shadow:rgb(250, 238, 13);
 }
 /* <!-- seccion 2 Servicios --> */
 section{
@@ -324,11 +354,13 @@ td{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecera{
+.titulo{
     width: 90%;
-    height: 2.5em;
+    height: 100%;
+    height: 4.5em;
     background: rgb(3, 11, 62);
     padding: 0.5em 1em;
+    
 }
 .cabeceraLink{
     width: 100%;
@@ -338,39 +370,42 @@ td{
     justify-content: flex-start;
     align-items: center;
     text-decoration: none;
-    /* color: rgb(253, 251, 251); */
-    font-size: 1.5em;
-  
+    color: rgb(253, 251, 251);
+    font-size: 2.5em;
 }
 .cabeceraImg{
     width: 5%;
     margin-right:10px;
 }
-.onda{
-    width: 100%;
-    height: 5%;
-}
-.banner{
+
+
+.contactoInfo{
     width: 90%;
-    height: calc(100vh - 2.5em);
-    background-image: url(../img/imgppal.jpg);
-    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    background: chartreuse;
+}
+.grupoInfo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.8em;
+}
+.textoInfo{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* color: rgb(20, 11, 1); */
+    justify-content:space-around;
+    padding: 0.5em;
 }
-.banner h1{
-    font-family: 'Parisienne', cursive;
-    font-size: 2.5em;
-    text-shadow:black;
-    margin-top: 25rem;
+.textoInfo h2{
+    font-size: 0.9em;
 }
-.banner h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    text-shadow:rgb(250, 238, 13);
+.textoInfo h4{
+    font-size: 0.6em;
 }
 
 /* <!-- seccion 2 --> */
