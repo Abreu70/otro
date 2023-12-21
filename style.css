@@ -319,7 +319,7 @@ tbody{
     color: rgb(243, 248, 248);
 }
 td{
-    padding-left: 2em;
+    padding-left: 1em;
 }
 
 
@@ -377,7 +377,6 @@ td{
     margin-right:10px;
 }
 
-
 .contactoInfo{
     width: 90%;
     height: 100%;
@@ -391,14 +390,14 @@ td{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.8em;
+    padding: 0.3em;
 }
 .textoInfo{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-around;
-    padding: 0.5em;
+    padding: 0.1em;
 }
 .textoInfo h2{
     font-size: 0.9em;
@@ -406,7 +405,45 @@ td{
 .textoInfo h4{
     font-size: 0.6em;
 }
+.logosInfo{
+    width: 50%;
+    padding: auto;
+}
+/* --------- */
+/* 
+.banner{
+    width: 90%;
+    height: calc(100% - 2.5em);
+    background-image: url(/img/imgppal.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
+    text-shadow:black;
+    margin-top: 25rem;
+    
+    box-shadow: 0.25rem 0.4rem 0.31rem rgb(0, 0, 0, 0.5);
+	border-left: 0.06rem solid rgb(255, 255, 255, 0.5);
+	border-top: 0.06rem solid rgb(255, 255, 255, 0.5);
+	border-radius: 0.6vw;
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.4); 
+    padding: 0.5em;
+    color: azure;
+}
+.banner h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-shadow:rgb(250, 238, 13); */
 
+
+
+/* -------- */
 /* <!-- seccion 2 --> */
 .section_2{
     width: 90%;
@@ -600,7 +637,7 @@ tbody{
    
 }
 td{
-    padding-left: 5em;
+    padding-left: 2em;
 }
 /* Payment Cards */
 .paimentCard{
