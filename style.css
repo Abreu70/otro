@@ -99,9 +99,7 @@ header{
     font-size: 1.5em;
     text-shadow:rgb(250, 238, 13);
 }
-.cabeceraImg{ 
-    width: 8%;
-}
+
 /* <!-- seccion 2 Servicios --> */
 section{
     width:100%;
@@ -428,7 +426,7 @@ td{
     justify-content: center;
     align-items: center;
 }
-/* .banner h1{
+.banner h1{
     font-family: 'Parisienne', cursive;
     font-size: 1.5em;
     text-shadow:black;
@@ -447,7 +445,7 @@ td{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
     text-shadow:rgb(250, 238, 13);
-} */
+}
 
 
 /* -------- */
