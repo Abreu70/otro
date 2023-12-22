@@ -411,6 +411,9 @@ header{
     align-items: center;
     padding: 0.3em;
 }
+.logosInfo{
+    width: 50%;
+}
 .textoInfo{
     display: flex;
     flex-direction: column;
@@ -434,7 +437,7 @@ header{
     width: 100%;
     height: calc(100% - 3.5em);
     background-image: url(/img/limpiamos.jpg);
-    background-size: contain;
+    /* background-size: contain; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -443,7 +446,7 @@ header{
 .banner h1{
     font-family: 'Parisienne', cursive;
     font-size: 1.5em;
-    text-shadow:black;
+    /* text-shadow:black;
     margin-top: 25rem;
     
     box-shadow: 0.25rem 0.4rem 0.31rem rgb(0, 0, 0, 0.5);
@@ -453,7 +456,7 @@ header{
 	background: rgb(0, 0, 0); 
 	background: rgba(0, 0, 0, 0.4); 
     padding: 0.5em;
-    color: azure;
+    color: azure; */
 }
 /* .banner h2{
     font-family: 'Times New Roman', Times, serif;
