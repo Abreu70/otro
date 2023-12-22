@@ -304,12 +304,12 @@ aside{
 }
 
 .submit{
-    width: 35%;
-    height: 2rem;
+    width: 10em;
+    height: 2.5em;
     margin: 2px 0;
-    background-color: rgb(239, 67, 10);
-    color: aliceblue;
-    border-radius: 0.8em;
+    background-color:#ff5e15;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    border-radius: 5em;
     margin-top: 0.5em;
     font-size: 0.8rem;
 }
@@ -652,16 +652,17 @@ aside{
     margin-top: 1em;
 }
 
-.submit{
-    width: 35%;
-    height: 2rem;
+/* .submit{
+    width: 10em;
+    height: 2.5em;
     margin: 2px 0;
-    background-color: rgb(239, 67, 10);
-    color: aliceblue;
-    border-radius: 0.8em;
+    background-color: rgb(rgba(255,94,21,255));
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    border-radius: 5em;
     margin-top: 0.5em;
     font-size: 0.8rem;
-}
+    
+} */
 
 footer{
     width: 90%;
@@ -702,6 +703,13 @@ tbody{
 }
 td{
     padding-left: 2em;
+}
+hr{
+    position: relative;
+    margin-top: 2em;
+    height: 4px;
+    background-color: black;
+
 }
 /* Payment Cards */
 .paimentCard{
