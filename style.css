@@ -109,7 +109,7 @@ header{
 }
 .centrado h1{
     font-family: 'Parisienne', cursive;
-    font-size: 2em;
+    font-size: 3.5em;
     text-shadow:black;
     /* margin-top: 25rem; */
     background-size: cover;
@@ -458,14 +458,9 @@ header{
 /* --------- */
 
 .banner{
-    width: 100%;
-    height: 100%;
-    /* background-image: url(/img/limpiamos.jpg); */
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
 .imgppal{
     width: 100%;
