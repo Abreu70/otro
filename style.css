@@ -391,7 +391,8 @@ td{
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    background: chartreuse;
+    background: rgb(255, 0, 0);
+    /* background: chartreuse; */
 }
 .grupoInfo1{
     display: flex;
@@ -635,9 +636,6 @@ footer{
     padding: 1em;
 }
 
-/* .textwidget{
-   
-} */
 tbody{
     font-size: 0.8em;
     color: rgb(12, 12, 12);
