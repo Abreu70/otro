@@ -433,14 +433,14 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.3em;
+    padding: 0em;
 }
 .textoInfo{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-around;
-    padding: 0.1em;
+    padding: 0em;
 }
 .textoInfo h2{
     font-size: 0.9em;
