@@ -73,7 +73,7 @@ header{
     width: 100%;
     height: calc(100% - 2.5em);
     background-image: url(/img/limpiamos.jpg);
-    background-size: cover;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -422,7 +422,7 @@ td{
     width: 100%;
     height: calc(100% - 3.5em);
     background-image: url(/img/limpiamos.jpg);
-    background-size: cover;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
