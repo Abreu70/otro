@@ -417,7 +417,7 @@ header{
 }
 .cabeceraImg{
     width: 5%;
-    margin-right:2em;
+    margin-right:4em;
 }
 
 .contactoInfo{
@@ -443,14 +443,14 @@ header{
     padding: 0em;
 }
 .textoInfo h2{
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 .textoInfo h4{
     font-size: 0.4em;
 }
 .logosInfo{
     width: 50%;
-    padding: auto;
+    padding: 0;
 }
 .logosInfoEmail{
     width: 55%;
