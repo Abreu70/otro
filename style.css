@@ -79,12 +79,21 @@ header{
     justify-content: center;
     align-items: center;
 }
+.imgppal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
 /* .banner h1{
     font-family: 'Parisienne', cursive;
     font-size: 2.5em;
     text-shadow:black;
     margin-top: 25rem;
-    
+    background-size: cover;
     box-shadow: 0.25rem 0.4rem 0.31rem rgb(0, 0, 0, 0.5);
 	border-left: 0.06rem solid rgb(255, 255, 255, 0.5);
 	border-top: 0.06rem solid rgb(255, 255, 255, 0.5);
@@ -434,14 +443,23 @@ header{
 /* --------- */
 
 .banner{
-    width: 90%;
+    width: 100%;
     height: 100%;
     /* background-image: url(/img/limpiamos.jpg); */
-    background-size:cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+}
+.imgppal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
 /* .banner h1{
     font-family: 'Parisienne', cursive;
