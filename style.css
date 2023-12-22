@@ -391,8 +391,7 @@ td{
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    background: rgb(255, 0, 0);
-    /* background: chartreuse; */
+    background: chartreuse;
 }
 .grupoInfo1{
     display: flex;
