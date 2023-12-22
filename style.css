@@ -71,15 +71,15 @@ header{
 }
 .banner{
     width: 100%;
-    height: calc(100% - 2.5em);
-    background-image: url(/img/limpiamos.jpg);
-    background-size: contain;
+    height: 100%;
+    /* background-image: url(/img/limpiamos.jpg); */
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.banner h1{
+/* .banner h1{
     font-family: 'Parisienne', cursive;
     font-size: 2.5em;
     text-shadow:black;
@@ -93,7 +93,7 @@ header{
 	background: rgba(0, 0, 0, 0.4); 
     padding: 0.5em;
     color: azure;
-}
+} */
 /* .banner h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
@@ -434,19 +434,19 @@ header{
 /* --------- */
 
 .banner{
-    width: 100%;
-    height: calc(100% - 3.5em);
-    background-image: url(/img/limpiamos.jpg);
-    /* background-size: contain; */
+    width: 90%;
+    height: 100%;
+    /* background-image: url(/img/limpiamos.jpg); */
+    background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
-.banner h1{
+/* .banner h1{
     font-family: 'Parisienne', cursive;
     font-size: 1.5em;
-    /* text-shadow:black;
+    text-shadow:black;
     margin-top: 25rem;
     
     box-shadow: 0.25rem 0.4rem 0.31rem rgb(0, 0, 0, 0.5);
@@ -456,8 +456,8 @@ header{
 	background: rgb(0, 0, 0); 
 	background: rgba(0, 0, 0, 0.4); 
     padding: 0.5em;
-    color: azure; */
-}
+    color: azure;
+} */
 /* .banner h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
