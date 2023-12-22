@@ -420,9 +420,6 @@ header{
     align-items: center;
     padding: 0.3em;
 }
-.logosInfo{
-    width: 50%;
-}
 .textoInfo{
     display: flex;
     flex-direction: column;
@@ -436,10 +433,13 @@ header{
 .textoInfo h4{
     font-size: 0.6em;
 }
-/* .logosInfo{
+.logosInfo{
     width: 50%;
     padding: auto;
-} */
+}
+.logosInfoEmail{
+    width: 60%;
+}
 /* --------- */
 
 .banner{
