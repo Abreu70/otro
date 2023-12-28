@@ -239,8 +239,8 @@ section{
     top: 1em;
     left: 50%;
     /* transform: translate(-50%, -0.2%); */
-	background-image: url(/imgcleans/Web_party.WEBP);
-	background-size:cover;
+	/* background-image: url(/imgcleans/Web_party.WEBP);
+	background-size:cover; */
 } 
 .carrusel h2{
 	text-align: center;
