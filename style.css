@@ -642,6 +642,20 @@ section{
     color: #080808;
 }
 
+/* Cards */
+.carrusel h2{
+    font-size: 1em;
+}
+.carrusel p{
+    font-size: 0.8em;
+}
+.user_name {
+    font-size:1em;
+}
+.footer_Cards i{
+    font-size: 0.8em;
+}
+
 /* <!-- seccion3  --> */
  article{
     width: 90%;
