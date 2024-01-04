@@ -42,7 +42,7 @@ header{
     font-size: 2.5em;
 }
 .cabeceraImg{
-    width: 7%;
+    width: 5%;
     margin-right:4em;
 }
 .contactoInfo{
@@ -89,12 +89,6 @@ header{
     background-size: cover;
 }
 
-/* .banner h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    text-shadow:rgb(250, 238, 13);
-} */
-
 .barner{
     position: relative;
     display: inline-block;
@@ -108,10 +102,10 @@ header{
     transform: translate(-50%, -50%);
 }
 .centrado h1{
+    text-align: center;
     font-family: 'Parisienne', cursive;
-    font-size: 3.5em;
+    font-size: 5em;
     text-shadow:black;
-    /* margin-top: 25rem; */
     background-size: cover;
     box-shadow: 0.25rem 0.4rem 0.31rem rgb(0, 0, 0, 0.5);
 	border-left: 0.06rem solid rgb(255, 255, 255, 0.5);
@@ -119,7 +113,7 @@ header{
 	border-radius: 0.6vw;
 	background: rgb(0, 0, 0); 
 	background: rgba(0, 0, 0, 0.4); 
-    /* padding: 0.5em; */
+    padding: 0.5em;
     color: azure;
 }
 
@@ -296,7 +290,6 @@ transform: scale(1.05);
 	height: 100%;
 }
 
-
 /* <!-- seccion3  --> */
  article{
     width: 90%;
@@ -332,8 +325,8 @@ aside{
 
 .imgLasVegas{
     width: 100%;
-    height: 25%;
-    background: coral;
+    height: 23%;
+    /* background: coral; */
 }
 .textartmap{
     max-width: 100%;
@@ -374,7 +367,7 @@ aside{
 }
 .textarea{
     width: 100%;
-    height: 4.5em;
+    height: 3.5em;
     margin: 2px 0;
     outline: none;
     resize: none;
@@ -395,7 +388,7 @@ aside{
 
 footer{
     width: 90%;
-    height: 20%;
+    /* height: 40%; */
     background: rgb(116, 37, 6);
     display: flex;
     flex-direction: column;
@@ -406,12 +399,14 @@ footer{
 .containerFooter{
     width: 100%;
     height: 100%;
-    background: rgb(34, 11, 3);
+    /* background: rgb(34, 11, 3); */
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     padding: 2em;
-    color: antiquewhite;
+    /* color: antiquewhite; */
+    color: rgb(12, 12, 12);
+    background:  rgb(238, 238, 234);
 }
 
 .tableWorking{
@@ -420,15 +415,17 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.tableWorking h2{
+    padding: 1em;
+}
 
 tbody{
     font-size: 1em;
-    color: rgb(243, 248, 248);
+    color: rgb(12, 12, 12);
 }
 td{
-    padding-left: 1em;
+    padding-left: 2em;
 }
-
 
 .paimentCard{
     width: 50%;
@@ -441,14 +438,26 @@ td{
 .paimentCard h2{
     /* font-family: 'Nothing You Could Do', cursive; */
     font-size: 1.5em;
+    padding: 1em;
 }
 .logos{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     justify-content: center;
     padding: 0.5em 1em;
 }
+
+.footercopy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #faf8f8;
+    font-size: 0.8em;
+    padding: 0.5em;
+}
+.footercopy a{
+    color: #faf8f8;
+}
+
 
 /* Media query para cell */
 @media (max-width: 820px){
@@ -550,32 +559,12 @@ header{
     align-items: center;
     background-size: cover;
 }
-/* .banner h1{
-    font-family: 'Parisienne', cursive;
-    font-size: 1.5em;
-    text-shadow:black;
-    margin-top: 25rem;
-    
-    box-shadow: 0.25rem 0.4rem 0.31rem rgb(0, 0, 0, 0.5);
-	border-left: 0.06rem solid rgb(255, 255, 255, 0.5);
-	border-top: 0.06rem solid rgb(255, 255, 255, 0.5);
-	border-radius: 0.6vw;
-	background: rgb(0, 0, 0); 
-	background: rgba(0, 0, 0, 0.4); 
-    padding: 0.5em;
-    color: azure;
-} */
-/* .banner h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2em;
-    text-shadow:rgb(250, 238, 13);
-} */
 
 .centrado h1{
     font-family: 'Parisienne', cursive;
     font-size: 2em;
 }
-/* -------- */
+
 /* <!-- seccion 2 --> */
 section{
     width:100%;
@@ -765,12 +754,12 @@ footer{
 .containerFooter{
     width: 100%;
     height: 100%;
-    background:  rgb(238, 238, 234);
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     padding: 2em;
     color: rgb(12, 12, 12);
+    background:  rgb(238, 238, 234);
 }
 
 .tableWorking{
@@ -808,7 +797,7 @@ hr{
     align-items: center;
     justify-content: center;
     /* padding: 1em; */
-    /* background: #faf8f8; */
+    
 }
 .paimentCard h2{
     /* font-family: 'Nothing You Could Do', cursive; */
