@@ -123,7 +123,7 @@ header{
     align-content: space-between;
     color: antiquewhite;
     background: #080808;
-    padding: 2px 2px;
+    padding: 2px;
 }
 .empresa{
     font-size: 3em;
@@ -617,8 +617,8 @@ header{
     color: rgb(246, 246, 240); */
 }
 .logoLlamada{
-    height: 3em;
-
+    height: 2.5em;
+}
 /* <!-- seccion 2 --> */
 section{
     width:100%;
