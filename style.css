@@ -116,8 +116,39 @@ header{
     padding: 0.5em;
     color: azure;
 }
-
-
+.footerppal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    color: antiquewhite;
+    background: #080808;
+    padding: 2px 2px;
+}
+.empresa{
+    font-size: 3em;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.5em;
+    color: beige;
+}
+.tim{
+    font-size: 2em;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0em;
+    color: beige;
+}
+.services{
+    font-size: 5em;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0em;
+    color: rgb(246, 246, 240);
+}
+.logoLlamada{
+    height: 8em;
+}
 /* <!-- seccion 2 Servicios --> */
 section{
     width:100%;
@@ -564,7 +595,29 @@ header{
     font-family: 'Parisienne', cursive;
     font-size: 2em;
 }
-
+.empresa{
+    font-size: 0.8em;
+    /* text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.5em;
+    color: beige; */
+}
+.tim{
+    font-size: 0.7em;
+    /* text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0em;
+    color: beige; */
+}
+.services{
+    font-size: 1em;
+    /* text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0em;
+    color: rgb(246, 246, 240); */
+}
+.logoLlamada{
+    height: 4em;;
 /* <!-- seccion 2 --> */
 section{
     width:100%;
