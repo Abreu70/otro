@@ -610,14 +610,15 @@ header{
     color: beige; */
 }
 .services{
-    font-size: 1em;
+    font-size: 0.9em;
     /* text-align: left;
     font-family: 'Quicksand', sans-serif;
     padding: 0em;
     color: rgb(246, 246, 240); */
 }
 .logoLlamada{
-    height: 3em;;
+    height: 3em;
+
 /* <!-- seccion 2 --> */
 section{
     width:100%;
