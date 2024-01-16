@@ -146,6 +146,13 @@ header{
     padding: 0em;
     color: rgb(246, 246, 240);
 }
+.containerLlamada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    color: antiquewhite;
+}
 .logoLlamada{
     height: 8em;
 }
